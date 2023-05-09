@@ -1,0 +1,13 @@
+/* Default styles */
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto-Regular.ttf");
+    font-family: "Jakarta";
+    src: url("../font/PlusJakartaSans-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jakarta", sans-serif;
+}
