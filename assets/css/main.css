@@ -52,12 +52,6 @@ section {
   color: #242424;
   width: 424px;
 }
-@media screen and (max-width: 1000px) {
-  .header img {
-    width: 100%;
-    object-fit: cover;
-  }
-}
 /* Info section styles */
 .info {
   display: flex;
@@ -105,3 +99,15 @@ section {
   line-height: 30px;
 }
 /* End Info section styles */
+@media screen and (max-width: 1000px) {
+  .header img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .header div{
+    position: sticky;
+  }
+  .info{
+    height: auto;
+  }
+}
