@@ -11,6 +11,11 @@
   box-sizing: border-box;
   font-family: "Jakarta", sans-serif;
   color: #000;
+  transition: all 0.2s ease-in;
+}
+.img {
+  width: 100% !important;
+  display: inline-block;
 }
 section {
   padding: 2rem 0;
@@ -99,15 +104,118 @@ section {
   line-height: 30px;
 }
 /* End Info section styles */
+/* Reklama styles start */
+.reklama-item {
+  transition: all 0.4s ease-in-out;
+}
+/* //Reklama styles end */
+/* Support section styles start */
+.support .content {
+  background: #e2eef3;
+  padding: 74px 0;
+}
+.filter {
+  background-color: #fff;
+  border-radius: 100px;
+  width: 850px;
+}
+.filter-item a {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000;
+  font-weight: 400;
+}
+.filter-item {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  padding: 10px;
+  box-shadow: 0px 0px 0px #8f8f8f;
+  border-radius: 100px;
+}
+.filter-item:hover {
+  background: #e2eef3;
+}
+.text .link,
+.text .link i {
+  text-decoration: none;
+  color: #fff;
+}
+.text {
+  margin: 1rem 0;
+}
+.text .link:hover i {
+  padding-left: 1rem;
+}
+
+/* //Support section styles end */
+/* Builder section styles start */
+.builders .main-title {
+  font-size: 50px;
+  line-height: 59px;
+  font-weight: 400;
+}
+.builders .main-text {
+  font-size: 20px;
+  line-height: 30px;
+}
+.roll-builders .roll-item .text h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 36px;
+}
+.roll-builders .roll-item .text p {
+  font-size: 20px;
+  line-height: 28px;
+}
+.roll-builders .roll-item .link a {
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #000000;
+}
+.roll-builders .roll-item .link a:hover i {
+  padding-left: 1rem;
+}
+.roll-builders .roll-item .design-img img {
+  width: 214px;
+  height: 142px;
+}
+.roll-builders .roll-item .text{
+  padding-left: 1rem;
+}
+/* //Builder section styles end */
+
 @media screen and (max-width: 1000px) {
   .header img {
     width: 100%;
     object-fit: cover;
   }
-  .header div{
+  .header div {
     position: sticky;
   }
-  .info{
+  .info {
     height: auto;
+  }
+  .filter {
+    width: 80%;
+    background-color: transparent;
+  }
+  .filter-item {
+    border-radius: 10px;
+    width: max-content !important;
+    padding: 10px;
+    background-color: #fff;
+    margin: 0.5rem;
+  }
+  .filter-item:hover {
+    background-color: #e2e2e2;
+  }
+  .info .number p {
+    font-size: 2rem;
+  }
+  .builder .row {
+    justify-content: flex-start;
   }
 }
