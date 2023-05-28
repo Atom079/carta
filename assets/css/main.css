@@ -182,10 +182,21 @@ section {
   width: 214px;
   height: 142px;
 }
-.roll-builders .roll-item .text{
+.roll-builders .roll-item .text {
   padding-left: 1rem;
 }
 /* //Builder section styles end */
+/* Statistika section styles start */
+.statistika .text .title {
+  font-size: 27px;
+  line-height: 36px;
+}
+.statistika .text .par {
+  font-size: 20px;
+  line-height: 29px;
+  width: 332px;
+}
+/* //Statistika section styles end */
 
 @media screen and (max-width: 1000px) {
   .header img {
@@ -217,5 +228,8 @@ section {
   }
   .builder .row {
     justify-content: flex-start;
+  }
+  .statistika .text .par {
+    width: 100%;
   }
 }
