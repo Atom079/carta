@@ -196,7 +196,51 @@ section {
   line-height: 29px;
   width: 332px;
 }
+.statistika img {
+  width: 100%;
+}
 /* //Statistika section styles end */
+/* Addition styles start */
+.addition .content1 {
+  text-align: center;
+  width: 760px;
+  background-color: #e2e2e2;
+
+  padding: 38px;
+}
+.addition .content1 .title {
+  font-size: 28px;
+  line-height: 38px;
+  font-family: "Roboto", sans-serif;
+}
+.addition img {
+  width: 72px;
+  height: 72px;
+}
+.addition .name {
+  font-size: 19px;
+  line-height: 29px;
+}
+.addition .pro {
+  font-size: 13px;
+  line-height: 16px;
+}
+.addition .subject {
+  font-size: 16px;
+  line-height: 18px;
+}
+.addition .content2 {
+  padding: 72px;
+  background-color: #000000;
+  color: #fff;
+  width: 1116px;
+}
+.addition .content2 .title {
+  font-size: 50px;
+  line-height: 58px;
+  font-family: "Roboto", sans-serif;
+}
+/* //Addition styles end */
 
 @media screen and (max-width: 1000px) {
   .header img {
@@ -231,5 +275,15 @@ section {
   }
   .statistika .text .par {
     width: 100%;
+  }
+  .addition .content1,
+  .addition .content2 {
+    width: 100%;
+  }
+  .addition .content1 .title {
+    font-size: 2rem;
+  }
+  .addition .content2 .title {
+    font-size: 2rem;
   }
 }
